@@ -102,7 +102,7 @@
             <div class="sec-title text-center">
                 <span class="sub-title">What We Do</span>
                 <h2 class="words-slide-up text-split">
-                    Your Trusted Logistics Partner<br />Delivering Excellence Worldwide
+                    Your Trusted Logistics Partner<br /> Delivering Excellence Worldwide
                 </h2>
             </div>
 
@@ -238,7 +238,7 @@
                     <div class="inner-column">
                         <div class="sec-title style-two">
                             <span class="sub-title">Who We Are</span>
-                            <h2>Empowering Businesses with Reliable<br />Global Logistics Solutions</h2>
+                            <h2>Empowering Businesses with Reliable<br/> Global Logistics Solutions</h2>
                             <div class="text">
                                 With over two decades of industry expertise, we deliver end-to-end logistics and
                                 transport
@@ -272,7 +272,7 @@
                                             alt="CEO Image">
                                     </div>
                                     <div class="author-info">
-                                        <h6 class="name">Jane Doe</h6>
+                                        <h6 class="name">Brandon Aaron</h6>
                                         <span class="designation">CEO, FirstReach Logistics</span>
                                         <img alt="Signature"
                                             data-cfsrc="{{ asset('dist/front/images/resource/sign.png') }}"
@@ -359,7 +359,7 @@
                     <div class="outer-box">
                         <div class="sec-title style-two light">
                             <span class="sub-title">Our Commitments</span>
-                            <h2>Delivering Excellence <br />With Every Shipment</h2>
+                            <h2>Delivering Excellence <br /> With Every Shipment</h2>
                         </div>
                         <div class="row g-0">
 
@@ -468,7 +468,7 @@
                         <div class="inner-column">
                             <div class="sec-title style-two">
                                 <span class="sub-title">Our Legacy</span>
-                                <h2>Every Decision Matters<br />Every Mile Counts</h2>
+                                <h2>Every Decision Matters <br />Every Mile Counts</h2>
                             </div>
                             <div class="row g-0">
                                 <!-- About Block -->
