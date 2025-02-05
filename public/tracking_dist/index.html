@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Your Shipment</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Optionally, you can use a Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="tracking-container">
+        <header class="header">
+            <h1>Track Your Shipment</h1>
+            <p>Enter your tracking number below to view the status of your shipment.</p>
+        </header>
+
+        <section class="tracking-form-section">
+            <form id="tracking-form" action="/track" method="POST">
+                <!-- In Laravel, include the CSRF token like: @csrf -->
+                <div class="form-group">
+                    <label for="tracking_number">Tracking Number</label>
+                    <input type="text" id="tracking_number" name="tracking_number" placeholder="e.g., 1234567890"
+                        required />
+                </div>
+                <button type="submit" class="btn">Track</button>
+            </form>
+        </section>
+
+        <!-- This section can be dynamically updated with tracking results -->
+        <section id="tracking-result" class="tracking-result" style="display: none;">
+            <h2>Shipment Details</h2>
+            <div class="result-item">
+                <span class="result-label">Tracking Number:</span>
+                <span class="result-value" id="result-tracking-number"></span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Status:</span>
+                <span class="result-value" id="result-status"></span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Expected Delivery:</span>
+                <span class="result-value" id="result-delivery"></span>
+            </div>
+        </section>
+    </div>
+
+    <!-- Optionally, add a script for demo purposes (simulate tracking result) -->
+    <script>
+        // This demo script simulates fetching shipment data.
+        document.getElementById('tracking-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // In a real application, you would send an AJAX request to your server here.
+            // For demonstration, we simulate a response:
+            const trackingNumber = document.getElementById('tracking_number').value;
+
+            // Simulated response
+            const shipmentData = {
+                tracking_number: trackingNumber,
+                status: "In Transit",
+                expected_delivery: "2025-02-10"
+            };
+
+            // Populate the results section
+            document.getElementById('result-tracking-number').textContent = shipmentData.tracking_number;
+            document.getElementById('result-status').textContent = shipmentData.status;
+            document.getElementById('result-delivery').textContent = shipmentData.expected_delivery;
+
+            // Display the result section
+            document.getElementById('tracking-result').style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>

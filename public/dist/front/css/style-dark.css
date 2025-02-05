@@ -1,0 +1,247 @@
+:root {
+  --dark-color1: #111111;
+  --dark-color2: #232323;
+  --dark-color3: #343434;
+  --dark-color4: #212529;
+  --text-color: #a3a5aa;
+}
+
+body,
+.page-wrapper,
+.header-style-one,
+.header-style-one .header-top,
+.header-style-one .main-box .outer-box .btn-box,
+.header-style-one .header-lower,
+.header-style-two .header-lower,
+.sticky-header.fixed-header,
+.contact-form .form-group .select2-container--default .select2-selection--single,
+.contact-form .form-group input:not([type=submit]),
+.contact-form .form-group textarea,
+.contact-form .form-group select,
+.subscribe-form .form-group input[type=email],
+.subscribe-form .form-group input[type=text],
+.feature-block-two .inner-box .icon-box .icon,
+.feature-block-three .inner-box .icon-box:before,
+.about-section-five,
+.about-section-five:before,
+.about-section-five .outer-box:before,
+.services-section-three,
+.service-block-three .content,
+.header-style-two {
+  background-color: var(--dark-color1);
+}
+
+.contact-form .form-group .select2-container--default .select2-selection--single,
+.contact-form .form-group input:not([type=submit]),
+.contact-form .form-group textarea,
+.contact-form .form-group select,
+.feature-block-three .inner-box:before {
+  border-color: var(--dark-color1);
+}
+
+.news-block .content-box,
+.testimonial-block .inner-box,
+.testimonial-block .inner-box:before,
+.about-section .content-column .inner-column .author-box .inner-box,
+.fun-fact-section,
+.skills .skill-item .skill-bar,
+.header-style-one .header-lower .logo-box,
+.header-style-one .main-box .outer-box .cart-btn:before,
+.feature-block-two .inner-box,
+.service-block-two .inner-box,
+.service-info-block .inner-box,
+.project-block-two .inner-box .content-box .inner,
+.team-section .outer-box,
+.team-block .info-box,
+.pricing-block .inner-box .title-box,
+.accordion-box,
+.about-section-four .video-block .inner-box .video-box .play-btn,
+.project-section-three .video-box .inner-box .play-btn,
+.about-section-five .outer-box,
+.service-block-three .content .icon,
+.header-style-two .header-top .inner-container {
+  background-color: var(--dark-color2);
+}
+
+.about-section .image-column .image-2,
+.header-style-one .header-top,
+.header-style-one .main-box .outer-box .btn-box,
+.about-section-three .list-style-one,
+.about-section-three .image-column .inner-column .image-2,
+.pricing-block .inner-box,
+.accordion-box .block .acc-btn,
+.accordion-box {
+  border-color: var(--dark-color2);
+}
+
+.project-section-three .video-box .inner-box .play-btn {
+  outline-color: var(--dark-color2);
+}
+
+.news-block .content-box .post-meta,
+.testimonials-section .owl-dots .owl-dot span,
+.counter-block .inner-box .icon-box,
+.project-block .content-box,
+.feature-block-three .inner-box,
+.about-section-five .image-column .inner-column:before,
+.header-style-two .header-top .inner-container .social-icon-one li:before {
+  background-color: var(--dark-color3);
+}
+
+.btn-style-three {
+  background-color: #000;
+}
+
+.news-block .bottom-box,
+.about-section .image-column .image-box .image-2 {
+  border-color: var(--dark-color3);
+}
+
+.clients-section.border-top {
+  border-top-color: var(--dark-color3) !important;
+}
+
+.news-carousel .owl-nav .owl-next,
+.news-carousel .owl-nav .owl-prev {
+  border-color: var(--text-color);
+}
+
+.header-style-one .main-box .outer-box .btn-box .info-btn-two .icon,
+.about-section-four .tabs-column .inner-column .about-tabs .btn-box .tab-btns .tab-btn,
+.about-section-four .tabs-column .inner-column .blockquote-style-one,
+.testimonials-section.style-three .owl-nav .owl-prev,
+.testimonials-section.style-three .owl-nav .owl-next,
+.header-style-two .main-box .outer-box .btn-box .info-btn-two .icon {
+  background-color: #000;
+  color: var(--theme-color-light);
+}
+
+body,
+.header-style-two .main-menu .navigation > li > a,
+.header-style-two .ui-btn,
+.header-style-two .header-lower .main-box .outer-box .mobile-nav-toggler,
+.sec-title .text,
+.list-style-two li,
+.testimonial-block .inner-box .text,
+.project-block .content-box .cat,
+.header-style-one .header-top .inner-container .list-style-one li,
+.header-style-one .header-top .inner-container .list-style-one li a,
+.header-style-one .main-box .nav-outer .navigation > li > a,
+.main-menu .navigation > li > a,
+.about-section-three .list-style-one li,
+.pricing-section .content-column .inner-column .list-style-one li,
+.about-section-five .content-column .inner-column .list-style-one li,
+.header-style-two .header-top .inner-container .list-style-one li {
+  color: var(--text-color);
+}
+
+.header-search .form-group input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input::-moz-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.header-style-one .main-box .nav-outer .navigation > li > a,
+.header-style-one .main-box .outer-box .cart-btn,
+.sec-title h2,
+.news-block .content-box .title a,
+.testimonial-block .inner-box .name,
+.testimonial-block .founder-info .name a,
+.about-section .content-column .inner-column .info-box .title,
+.about-section .content-column .inner-column .author-box .inner-box .author-info .name,
+.counter-block .inner-box .content-box .count-box,
+.skills .skill-item .skill-header .skill-title,
+.about-section-two .info-btn small,
+.project-block .content-box .title a,
+.social-icon-one li a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a,
+.header-search .form-group input::placeholder,
+.feature-block-two .inner-box .title a,
+.about-section-three .about-block .inner-box .text,
+.service-block-two .inner-box .content .title a,
+.service-info-block .inner-box .title,
+.service-info-block .inner-box .call-info-box small,
+.project-block-two .inner-box .content-box .title a,
+.about-section-four .tabs-column .inner-column .info-box .title,
+.team-block .info-box .name a,
+.pricing-section .content-column .inner-column .call-info-box .inner .info-btn small,
+.pricing-block .inner-box .title-box .title,
+.pricing-block .inner-box .pricing-content-box .inner .price,
+.accordion-box .block .acc-btn,
+.accordion-box .block .acc-btn .arrow,
+.feature-block-three .inner-box .title a,
+.about-section-five .content-column .inner-column .info-box .title,
+.service-block-three .content .title a,
+.header-style-two .header-top .inner-container .list-style-one li a {
+  color: #fff;
+}
+
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a {
+  color: var(--theme-color2);
+}
+
+.bg-color-unset {
+  background-color: unset;
+}
+
+.offer-section-five:before,
+.contact-section-three:after,
+.pricing-section-two,
+.fun-fact-section,
+.service-info-block .inner-box {
+  background-image: unset !important;
+}
+
+.news-section .pattern-4,
+.testimonials-section .pattern-2,
+.about-section .icon-plane,
+.project-section .bg.bg-image,
+.about-section-three .pattern-11,
+.services-section-two .bg-image,
+.about-section-four .pattern-7,
+.pricing-section .pattern-9,
+.pricing-block .inner-box:before,
+.faqs-section .bg.bg-image,
+.faqs-section.style-two .pattern-14,
+.project-section-two.style-two .bg-image,
+.testimonials-section.style-three .bg-image,
+.features-section-three .bg-image,
+.about-section-five .pattern-7,
+.services-section-three .bg-image,
+.services-section-three .pattern-11 {
+  opacity: 0.1;
+}
+
+.contact-form .form-group textarea {
+  background-color: #0a090f;
+}
+.contact-form .form-group input:not([type=submit]) {
+  background-color: #0a090f;
+}
+
+.contact-form-two .form-group input:focus {
+  border-color: var(--dark-color1);
+  color: #fff;
+}
+
+.banner-section .slide-item .shape-5 {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.clients-carousel .slide-item img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
