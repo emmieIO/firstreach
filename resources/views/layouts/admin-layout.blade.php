@@ -38,7 +38,7 @@
         <!-- start: header -->
         <header class="header">
             <div class="logo-container">
-                <a href="" class="logo">
+                <a href="{{route('dashboard')}}" class="logo">
                     <img src="{{ asset("dist/front/images/logo-2.png") }}" width="75" height="35" alt="Admin" />
                 </a>
                 <div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
@@ -196,7 +196,7 @@
                                                 Messages
                                             </a>
                                         </li>
-                                        
+
                                     </ul>
                                 </li>
 
