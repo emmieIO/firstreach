@@ -12,7 +12,9 @@
     <link rel="icon" href="{{ "" }}" type="image/x-icon">
 
     <!-- Style Css -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="{{asset("build/assets/app-CGGva2Fh.css")}}">
+    <script src="{{asset("build/assets/app-CvSG40sc.js")}}"></script>
     <link href="{{ asset('dist/admin/assets/css/styles.css') }}" rel="stylesheet">
 
     <!-- End styles -->
