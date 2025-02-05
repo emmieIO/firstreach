@@ -12,12 +12,12 @@ class LocationController extends Controller
     public function index()
     {
         $locations = Location::paginate(20)->withQueryString();
-        return view('admin.locations.index', compact('locations'));
+        return view('admin.Locations.index', compact('locations'));
     }
 
     public function create()
     {
-        return view('admin.locations.create');
+        return view('admin.Locations.create');
     }
 
 
@@ -37,7 +37,7 @@ class LocationController extends Controller
     public function edit($uuid)
     {
         $location = Location::where('uuid', $uuid)->first();
-        return view('admin.locations.edit', compact('location'));
+        return view('admin.Locations.edit', compact('location'));
     }
 
     public function update(Request $request, $uuid)
