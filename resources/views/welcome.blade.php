@@ -591,8 +591,7 @@
                             <div class="call-info-box">
                                 <a href="tel:+1234567890" class="info-btn">
                                     <i class="icon fa fa-phone"></i>
-                                    <small>Call for Free</small><br />
-                                    +1 (234) 567-890
+                                    
                                 </a>
                             </div>
                         </div>
