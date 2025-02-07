@@ -729,7 +729,7 @@
 
     <!-- End Testimonials Section--><!-- Contact Section-->
     <section class="contact-section" id="contact">
-        <div class="float-image bounce-x"><img alt="Image" src="images/background/bg-contact1.png"></div>
+        <div class="float-image bounce-x"><img alt="Image" src="{{asset('dist/front/images/background/bg-contact1.png')}}"></div>
         <div class="pattern-3 bounce-y"></div>
         <div class="auto-container">
             <div class="row">
