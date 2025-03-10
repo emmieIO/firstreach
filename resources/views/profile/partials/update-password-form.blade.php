@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="form-group row pb-4">
-                        <label class="col-lg-3 control-label text-lg-end pt-2" for="inputRounded">Email</label>
+                        <label class="col-lg-3 control-label text-lg-end pt-2" for="inputRounded">Confirm new Password</label>
                         <div class="col-lg-6">
                             <input  class="form-control" id="update_password_password_confirmation"
                                 name="password_confirmation" type="password"
